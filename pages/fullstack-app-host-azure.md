@@ -1,0 +1,4 @@
+- Azure static web app
+- Azure (managed) PostgreSQL database
+- Azure container instances
+- Azure AD B2C (identity provider)
