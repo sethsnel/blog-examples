@@ -1,0 +1,10 @@
+table:
+  name: Rating
+  schema: public
+object_relationships:
+  - name: Movie
+    using:
+      foreign_key_constraint_on: MovieId
+  - name: Profile
+    using:
+      foreign_key_constraint_on: ProfileId

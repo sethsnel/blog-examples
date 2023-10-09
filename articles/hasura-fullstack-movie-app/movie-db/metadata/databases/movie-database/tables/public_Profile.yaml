@@ -1,0 +1,11 @@
+table:
+  name: Profile
+  schema: public
+array_relationships:
+  - name: Ratings
+    using:
+      foreign_key_constraint_on:
+        column: ProfileId
+        table:
+          name: Rating
+          schema: public

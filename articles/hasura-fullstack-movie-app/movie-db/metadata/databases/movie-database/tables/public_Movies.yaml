@@ -1,0 +1,11 @@
+table:
+  name: Movies
+  schema: public
+array_relationships:
+  - name: Ratings
+    using:
+      foreign_key_constraint_on:
+        column: MovieId
+        table:
+          name: Rating
+          schema: public
